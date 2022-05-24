@@ -50,8 +50,6 @@ export const Container = styled.div`
     padding: 12px 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 1.4rem;
-    /*     animation: fadeIn 0.3s ease-in-out backwards;
-    animation-delay: 2s; */
   }
   button:hover {
     cursor: pointer;

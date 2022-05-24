@@ -6,6 +6,7 @@ export const Container = styled.div`
   margin-top: 10px;
   width: 100%;
   margin: 0 auto;
+  overflow-y: hidden;
   h1 {
     font-weight: 600;
     font-size: 41.9149px;

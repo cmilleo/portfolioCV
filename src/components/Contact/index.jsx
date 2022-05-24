@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import { Container } from "./styles";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import Aos from "aos";
 import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 const Contact = () => {

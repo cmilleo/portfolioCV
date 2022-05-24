@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Container } from "./styles";
 import profile2 from "../../img/profile2.png";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 import Aos from "aos";
 const Sobre = () => {
   useEffect(() => {

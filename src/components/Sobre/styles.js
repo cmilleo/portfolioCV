@@ -8,6 +8,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
+  overflow-x: hidden;
   h1 {
     font-style: normal;
     font-weight: 600;
@@ -21,6 +22,8 @@ export const Container = styled.div`
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.05em;
+    overflow-x: hidden;
+    width: 100%;
   }
   img {
     height: 280px;
@@ -31,5 +34,6 @@ export const Container = styled.div`
     background-color: #fff;
     width: 40%;
     margin-top: 50px;
+    overflow-y: hidden;
   }
 `;
