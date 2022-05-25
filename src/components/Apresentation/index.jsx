@@ -1,6 +1,6 @@
 import React from "react";
 import CVCelsoRicardoMilleo from "../../download/CVCelsoRicardoMilleo.pdf";
-import { Container } from "./styles.js";
+import { Container } from "./styles";
 const Apresentation = () => {
   return (
     <Container>

@@ -2,9 +2,10 @@ import styled from "styled-components";
 import { css } from "styled-components";
 
 export const Container = styled.div`
+  z-index: 999;
   cursor: pointer;
   @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-  width: 50%;
+  width: 130px;
   height: 100px;
   background-color: gray;
   border-radius: 8px;
@@ -23,6 +24,9 @@ export const Container = styled.div`
     width: 100%;
   }
   ul li:hover {
+    background-color: #494949;
+  }
+  a:hover {
     background-color: #494949;
   }
   a {
@@ -78,5 +82,25 @@ export const Container = styled.div`
       opacity: 0;
       display: none;
     }
+  }
+  @media screen and (min-width: 768px) {
+    top: 9%;
+    right: 13%;
+  }
+  @media screen and (min-width: 1024px) {
+    right: 12%;
+  }
+  @media screen and (min-width: 1440px) {
+    top: 12%;
+    right: 13%;
+    width: 200px;
+  }
+  @media screen and (min-width: 1600px) {
+    top: 9%;
+    right: 20%;
+  }
+  @media screen and (min-width: 1920px) {
+    right: 19%;
+    top: 7%;
   }
 `;
