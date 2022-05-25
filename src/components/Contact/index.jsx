@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 
 import { Container } from "./styles";
-// import "aos/dist/aos.css";
 import Aos from "aos";
 import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 const Contact = () => {
@@ -18,13 +17,21 @@ const Contact = () => {
         <strong>Telefone:</strong>(42)98885-7181
       </p>
       <div>
-        <a href="https://github.com/cmilleo">
+        <a href="https://github.com/cmilleo" target="_blank" rel="noreferrer">
           <BsGithub size={30} color="#fff" />
         </a>
-        <a href="https://www.linkedin.com/in/celsoricardomilleo/">
+        <a
+          href="https://www.linkedin.com/in/celsoricardomilleo/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin size={30} color="#fff" />
         </a>
-        <a href="https://contate.me/celso.milleo">
+        <a
+          href="https://contate.me/celso.milleo"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsWhatsapp size={30} color="#fff" />
         </a>
       </div>

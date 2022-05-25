@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
-  font-family: "Alex Brush", cursive;
+  font-family: "Poppins";
 
   font-size: 0.7rem;
   color: white;
@@ -10,7 +9,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   width: 80%;
   margin: 0 auto;
   margin-top: 30px;
@@ -34,6 +33,12 @@ export const Container = styled.div`
     to {
       opacity: 1;
       transform: translateY(0px);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 1rem;
+    button {
+      font-size: 1.2rem;
     }
   }
 `;

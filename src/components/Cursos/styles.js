@@ -54,4 +54,16 @@ export const Container = styled.div`
     flex-direction: column;
     background-color: none;
   }
+  @media screen and (min-width: 1024px) {
+    max-width: 350px;
+    margin-top: 70px;
+  }
+  @media screen and (min-width: 1200px) {
+    h2 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    width: 70%;
+  }
 `;

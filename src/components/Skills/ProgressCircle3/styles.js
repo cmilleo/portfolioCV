@@ -67,4 +67,7 @@ export const Container = styled.div`
       stroke-dashoffset: ${({ progress }) => progress};
     }
   }
+  @media screen and (min-width: 1440px) {
+    transform: scale(1.2);
+  }
 `;

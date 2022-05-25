@@ -56,6 +56,8 @@ export const Container = styled.div`
     position: absolute;
     top: 0;
     left: 0;
+    width: 160px;
+    height: 160px;
   }
   @keyframes anim1 {
     100% {
@@ -66,5 +68,8 @@ export const Container = styled.div`
     0% {
       stroke-dashoffset: ${({ progress }) => progress};
     }
+  }
+  @media screen and (min-width: 1440px) {
+    transform: scale(1.2);
   }
 `;

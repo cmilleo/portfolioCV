@@ -4,13 +4,9 @@ export const Container = styled.div`
   font-family: "Poppins";
   color: white;
   text-align: center;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
-  margin: 0 auto;
-  margin-top: 30px;
   gap: 20px;
   h1 {
     font-weight: 600;
@@ -19,6 +15,7 @@ export const Container = styled.div`
     animation: fadeIn 0.3s ease-in-out backwards;
     animation-delay: 1.5s;
   }
+
   h2 {
     font-weight: 300;
     font-size: 1.4rem;
@@ -62,26 +59,14 @@ export const Container = styled.div`
       rgba(39, 122, 207, 1) 60%
     );
   }
-  @media screen and (min-width: 768px) {
-    button {
-      width: 40%;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-40%);
     }
-  }
-  @media screen and (min-width: 1024px) {
-    position: absolute;
-    left: 10%;
-    top: 20%;
-    width: 40%;
-    button {
-      width: 60%;
-    }
-  }
-  @media screen and (min-width: 1440px) {
-    left: 10%;
-    top: 23%;
-    width: 40%;
-    button {
-      width: 60%;
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 `;

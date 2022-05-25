@@ -5,7 +5,7 @@ import ProfileImg from "../../img/profile.png";
 const SectionTop = () => {
   return (
     <Container>
-      <img src={ProfileImg} />
+      <img src={ProfileImg} alt="Foto de Celso" />
     </Container>
   );
 };

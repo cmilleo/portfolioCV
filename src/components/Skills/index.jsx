@@ -3,7 +3,7 @@ import ProgressCircle from "./ProgressCircle";
 import ProgressCircle2 from "./ProgressCircle2";
 import ProgressCircle3 from "./ProgressCircle3";
 import { Container } from "./styles";
-// import "aos/dist/aos.css";
+
 import Aos from "aos";
 const Skills = () => {
   useEffect(() => {

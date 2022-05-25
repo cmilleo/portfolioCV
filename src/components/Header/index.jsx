@@ -10,7 +10,6 @@ function Header() {
 
   function handleToggle() {
     isOpen ? setIsOpen(false) : setIsOpen(true);
-    console.log(isOpen);
   }
   return (
     <>

@@ -8,13 +8,26 @@ const NavHeader = ({ visible }) => {
       <div></div>
       <ul>
         <li>
-          <a href="https://github.com/cmilleo">GitHub</a>
+          <a href="https://github.com/cmilleo" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/celsoricardomilleo/">Linkedin</a>
+          <a
+            href="https://www.linkedin.com/in/celsoricardomilleo/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>
         </li>
         <li>
-          <a href={CVCelsoRicardoMilleo} download={CVCelsoRicardoMilleo}>
+          <a
+            href={CVCelsoRicardoMilleo}
+            download={CVCelsoRicardoMilleo}
+            target="_blank"
+            rel="noreferrer"
+          >
             Curriculo
           </a>
         </li>

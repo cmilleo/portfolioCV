@@ -25,4 +25,26 @@ export const Container = styled.div`
       transform: translate3d(0, 0, 0);
     }
   }
+  @media screen and (min-width: 768px) {
+    width: 55%;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 40%;
+    img {
+      height: 380px;
+    }
+    position: absolute;
+    right: 10%;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 40%;
+    img {
+      height: 380px;
+    }
+    position: absolute;
+    right: 15%;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 35%;
+  }
 `;
